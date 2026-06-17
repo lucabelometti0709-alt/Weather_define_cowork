@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25344c"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="13" y1="13" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd36a"/>
+      <stop offset="1" stop-color="#f39a3d"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="36" y1="23" x2="52" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dce8ff"/>
+      <stop offset="1" stop-color="#8fb0ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)"/>
+  <path d="M23 11v6M23 29v6M11 23h6M29 23h6M14.5 14.5l4.2 4.2M27.3 27.3l4.2 4.2M31.5 14.5l-4.2 4.2M18.7 27.3l-4.2 4.2" stroke="#ffd36a" stroke-width="2.7" stroke-linecap="round"/>
+  <circle cx="23" cy="23" r="8.5" fill="url(#sun)"/>
+  <path d="M50.5 43.6c-2.2 4.3-6.7 7.1-11.8 6.7-6.4-.6-11.1-6.2-10.6-12.5.5-5.2 4.4-9.3 9.2-10.3-1.5 2.1-2.4 4.7-2.6 7.5-.5 6.3 4 11.6 10.2 12.2 2 .2 3.9-.2 5.6-1.1Z" fill="url(#moon)"/>
+  <circle cx="44.5" cy="33.5" r="1.6" fill="#edf4ff" opacity=".9"/>
+  <circle cx="49.5" cy="38.8" r="1.1" fill="#edf4ff" opacity=".72"/>
+</svg>
